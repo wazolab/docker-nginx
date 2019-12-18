@@ -7,3 +7,5 @@ COPY nginx/ /etc/nginx
 COPY src/ /var/www/html
 
 VOLUME /etc/nginx
+
+EXPOSE 80 443
